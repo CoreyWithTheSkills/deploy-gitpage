@@ -1,1 +1,119 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Kanit:wght@400;700&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:wght@400;700&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center; /* Centers vertically */
+        justify-content: center; /* Centers horizontally */
+        min-height: 100vh; /* Ensures the body takes up the full viewport height */
+        font-family:  "Red Hat Display"; /* Optional: add a default font */
+        background-color: hsl(224, 23%, 55%); /* Optional: light background color */
+      }
+
+      .bigimg{
+        border-radius: 25px 25px 0px 0px;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+        
+.container{
+    text-align: center;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.small-container{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(224, 23%, 55%, 0.1);
+    width: 350px;
+    height: 100px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.smallest-container{
+  text-align: left;
+}
+
+.music-icon{
+    margin-right: 1rem;
+    height: 60px;
+    width: 60px;
+}
+
+.small-container-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    padding: 20px;
+}
+
+a{
+    margin-left: 4rem;
+    font-family:  "Red Hat Display";
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+    font-size: 1.1rem;
+}
+
+.smallest-container p{
+    margin: 0;
+}
+
+.price-text{
+    color: hsl(224, 23%, 55%);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.smallest-container h2{
+    margin: 0;
+    font-size: 1.2rem;
+    color: hsl(223, 47%, 23%);
+    -webkit-text-stroke: 1px hsl(223, 47%, 20%);
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+     -webkit-text-stroke: 1px hsl(223, 47%, 20%);
+}
+
+.cancel-order{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 2.5rem;
+}
+
+.order-summary-p{
+    color: hsl(224, 23%, 55%);
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 75%;
+}
+
+.btn{
+    font-family:  "Red Hat Display";
+    font-weight: bold;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    width: 350px;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
