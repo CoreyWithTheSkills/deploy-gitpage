@@ -117,3 +117,129 @@ h1{
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+}
+
+  @media (max-width: 30rem) {
+    /* Styles for small phones */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center; /* Centers vertically */
+        justify-content: center; /* Centers horizontally */
+        min-height: 100vh; /* Ensures the body takes up the full viewport height */
+        font-family:  "Red Hat Display"; /* Optional: add a default font */
+        background-color: hsl(224, 23%, 55%); /* Optional: light background color */
+      }
+
+      .bigimg{
+        border-radius: 1.56rem 1.56rem 0 0;;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+        
+.container{
+    text-align: center;
+    background-color: white;
+    border-radius: 1.56rem;
+    width: 21.88rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.small-container{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(224, 23%, 55%, 0.1);
+    width: 15.63rem;
+    height: 6.25rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.smallest-container{
+  text-align: left;
+}
+
+.music-icon{
+    margin-right: 1rem;
+    height:  2.5rem;
+    width:  2.5rem;
+}
+
+.small-container-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    padding: 1.25rem;
+}
+
+a{
+    margin-left: 1rem;
+    font-family:  "Red Hat Display";
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+    font-size: 1rem;
+}
+
+.smallest-container p{
+    margin: 0;
+}
+
+.price-text{
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.smallest-container h2{
+    margin: 0;
+    font-size: 0.9rem;
+    color: hsl(223, 47%, 23%);
+    -webkit-text-stroke: 1px hsl(223, 47%, 20%);
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+     -webkit-text-stroke: 1px hsl(223, 47%, 20%);
+     font-size: 1.75rem;
+}
+
+.cancel-order{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 2.5rem;
+}
+
+.order-summary-p{
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 75%;
+}
+
+.btn{
+    font-family:  "Red Hat Display";
+    font-weight: bold;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 0.94rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    width: 15.63rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0.31rem 0.63rem rgba(0, 0, 0, 0.3);
+}
+}
